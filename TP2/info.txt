@@ -1,0 +1,34 @@
+call              exit
+---> ------------ --->
+     -   Goal   -
+<--- ------------ <---
+fail               redo
+
+
+trace - command to see execution
+
+
+--------------
+
+PREDICADOS DE I/0 -> Extra-lógicos:
+
+Leitura:  read/1
+          get_char/1
+          get_code/1 -> ASCII
+
+Escrita:  write/1
+          format/2 ≃ printf(de C)
+          nl/0
+          put_code/1
+          put_char/1
+
+---------------
+
+LISTAS
+
+[H | T]
+
+Ex.:
+     [1,2,3] ou [1 | [2,3]]
+
+     [1,2,3|[]] ou [1,2|[3]]      
